@@ -1,8 +1,13 @@
+/**
+ * @brief  C programming
+ *
+ * @author onyettr
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
-
 
 /**
  * @brief 				pad_string
@@ -12,7 +17,7 @@
  * @param width			size of output buffer
  * @param pad_char		padding character
  * @param destination	output buffer
- * @notes				function to add an integer to a buffer. If the number is
+ * @note				function to add an integer to a buffer. If the number is
  * 						equal to teh check number then if will instead pack the
  * 						pad character into the buffer
  * 						Done originally for printing '--------' if a number was
