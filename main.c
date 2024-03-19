@@ -115,5 +115,6 @@ int main (void)
   pad_string(hexnum,0x0, sizeof(first),'*',first);
   pad_string(hexnum2,0x0, sizeof(second),'>',second);
   printf("test3 %10s %10s\n",first, second);
+
   exit(1);
 }
